@@ -1,7 +1,8 @@
 ### Arya Dhole  ENTC-A2  22070123027
 # 1. Bitwise Operators
-
-# Theory:
+## Aim:
+The program performs various arithmetic, logical, and bitwise operations on two floating-point numbers (num1 and num2) and two integer numbers (num3 and num4).
+## Theory:
 Operators in C++ can be classified into :
 
 * Arithmetic Operators
@@ -46,15 +47,16 @@ Operators in C++ can be classified into :
 <<	------------------Binary Shift Left  
 '>>	-----------------Binary Shift Right
 
-# Explanation:
+## Explanation:
 We perform logical operations on num3 and num4 using && (logical AND), || (logical OR), and ! (logical NOT).
 
 We perform bitwise operations on num3 and num4 using & (bitwise AND), | (bitwise OR), ^ (bitwise XOR), and ~ (bitwise complement). The results are displayed.
 
 
 # 2. Bit Shifting
-
-# Theory:
+## Aim:
+The program performs a bitwise OR operation.
+## Theory:
 
 * ### Left Shift(<<)  
 It is a binary operator that takes two numbers, left shifts the bits of the first operand, and the second operand decides the number of places to shift. In other words, left-shifting an integer “a” with an integer “b” denoted as ‘(a<<b).  
@@ -67,7 +69,7 @@ It is a binary operator that takes two numbers, right shifts the bits of the fir
 
 If a=6; which is 0110 in Binary Form. Now, if a is right-shifted by 1 i.e (a=a>>1) then a can be written as 0011 i.e. (a=3).
 
-# Explanation:
+## Explanation:
 
 * ## int num = 2 :  
 Here, we declare an integer variable num and initialize it with the value 2.
@@ -82,6 +84,8 @@ This line performs a bitwise OR operation between num and the result of the expr
 * Finally, the result of the bitwise OR operation, which is 10, is printed to the console.
 
 # 3. Bit Shifting_1
+## Aim:
+The program performs a bitwise XOR operation.
 
 ## Explanation:
 
@@ -96,6 +100,8 @@ This line performs a bitwise XOR operation between num and the result of the exp
 * Finally, the result of the bitwise XOR operation, which is 9, is printed to the console.
 
 # 4. Bit Shifting_2
+## Aim:
+The program performs a bitwise AND operation.
 
 ## Explanation:
 
