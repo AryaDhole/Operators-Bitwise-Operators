@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-  int num=11;
+  int num=13;
   cout<< (num&~(1<<2))<< endl ;
  return 0;
 }
